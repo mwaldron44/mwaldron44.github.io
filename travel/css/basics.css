@@ -1,0 +1,82 @@
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+
+body {
+	background-color:#F0E8CB;   /* background color */
+	color: #444;          /* text color for the entire page */
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+h1{  
+	text-align: center;   
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width:850px;
+	margin:0 auto;    /* centers wrapper */
+}
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:6px;
+	text-align:left;
+	font-size:16px;
+	background-color:#50A0C4
+ }
+.stepContent{ 
+	background-color: #FBFBF5;
+	padding:8px;
+	display: flex;
+	justify-content: left;
+}
+.stepDescription {
+	width:55%;
+	padding:8px;
+}
+
+.stepImage {
+	width:40%;	
+	padding:10px;
+	text-align: left;
+}
+
+img { 
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+}
+
+.warning {
+		background-color: #9F9F9F;
+		padding:12px;
+		border-radius:20px;
+}
+
+.material-icons {
+	color:red; 
+	font-size:3em;
+}
+
+.container {
+	display: flex;
+	align-items: flex-start;
+}
+
+#nav a {
+	padding: 10px;
+	margin: 10px;
+	font-size: 125%;
+	background-color: #50a0ca; 
+	color: #090909; 
+}
+a {
+	padding: 10px;
+	margin: 10px;
+	font-size: 100%;
+	background-color:; 
+	color:; 
+}
+#nav a:hover {
+	font-size:125%;
+	background-color: #50a0ca; 
+	color: #F9F9F7; 
+}
